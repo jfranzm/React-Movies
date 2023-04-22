@@ -1,0 +1,14 @@
+.movie-links {
+    text-decoration: none;
+    color: black;
+    
+}
+.card-backdrop {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 20vw;
+}
+.title-card {
+
+}
