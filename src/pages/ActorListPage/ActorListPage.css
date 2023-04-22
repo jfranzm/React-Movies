@@ -6,7 +6,7 @@
 .card-backdrop {
     margin: 1vw;
     text-align: center;
-    height: 45vh;
+    height: 30vh;
     width: 30vw;
     transition: 0.3s;
     
@@ -19,5 +19,7 @@
     background-size: contain;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0,0,0,0.4);
+    position: absolute;
     width: 30vw;
+    color: rgba(255, 255, 255, 0.963);
 }

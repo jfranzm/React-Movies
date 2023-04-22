@@ -1,5 +1,5 @@
 import ActorCard from "../../components/ActorCard/ActorCard"
-
+import './ActorListPage.css'
 export default function ActorsListPage({movies}) {
     const actorList = movies.reduce((actors, movie) => {
         movie.cast.forEach((actor) => {
