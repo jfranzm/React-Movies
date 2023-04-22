@@ -8,7 +8,7 @@ export default function ActorsListPage({movies}) {
         return actors;
     }, [])
     return (
-        <div>
+        <div className="container">
             {actorList.map((actor) => {
                 return <ActorCard key={actor} actor={actor} />
             })}

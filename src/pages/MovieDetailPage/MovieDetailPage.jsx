@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-
+import './MovieDetailPage.css'
 export default function MovieDetailPage({movies}) {
     let { movieName } = useParams();
     let movie = movies.find(m => m.title === movieName)
